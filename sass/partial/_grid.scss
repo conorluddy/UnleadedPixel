@@ -1,0 +1,80 @@
+
+
+/*! Wordpress grid styles */
+
+
+/**
+ * Define breakpoints -----------------------------------------------
+ */
+	#page { 
+		@include container;
+		@include transition(max-width 500ms linear);
+	}
+	#page {
+		@include container($total-columns, $large); 
+	}
+
+
+/**
+ * Mobile first - small screens -----------------------------------------------
+ */
+	.site-header,
+	.site-main,
+	.site-footer{ 
+		@include span-columns(6 omega,6); 
+	}
+		.content-area{ 	
+			@include span-columns(6 omega,6);
+		}
+		.sidebar{ 
+			@include span-columns(6 omega,6); 
+		}
+
+
+
+
+
+/**
+ * Tablets and medium screens -----------------------------------------------
+ */
+@include at-breakpoint($medium) {
+
+	.site-header,
+	.site-main,
+	.site-footer{ 
+		@include span-columns($medium omega,$medium);
+	}
+		.content-area{ 	
+			@include span-columns($medium omega,$medium);
+		}
+		.sidebar{ 
+			@include span-columns($medium omega,$medium);
+		}
+
+}
+
+
+
+/**
+ * Desktop and large screens -----------------------------------------------
+ */
+
+@include at-breakpoint($large) {
+
+	.site-header,
+	.site-main,
+	.site-footer{ 
+		@include span-columns(12 omega,12); 
+	}
+		.content-area{ 	
+			@include span-columns(7 ,12);
+			@include post(1); 
+		}
+		.sidebar{ 
+			@include span-columns(4 omega ,12); 
+		}
+
+}
+
+
+

@@ -1,0 +1,39 @@
+
+
+/*! Wordpress primary nav styles */
+
+
+/* Usual Resets */
+
+
+
+@if $primaryNavDirection == 'horizontal' {
+
+
+	@include at-breakpoint($medium) {
+		.navigation-main{
+			ul li{
+				float: left;
+			}
+		}
+	}
+
+	@include at-breakpoint($large) {
+		.navigation-main{
+			ul li{
+				float: left;
+			}
+		}
+	}
+
+} @else {
+
+	// .navigation-main{
+	// 	ul li{
+	// 		float: none;
+	// 	}
+	// }	
+
+}
+
+/* Customisation */

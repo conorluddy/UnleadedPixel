@@ -1,0 +1,74 @@
+/*!
+Theme Name: unleadedbase
+Theme URI: 
+Author: Conor Luddy
+Author URI: 
+Description: Description
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags:
+*/
+////////////////////////////////////Handy bits
+
+@import "bourbon/bourbon";
+
+@import "susy/susy";
+
+@import "compass/reset";
+
+////////////////////////////////////General style stuff
+
+@import "partial/swatch";
+
+@import "partial/settings";
+
+@import "partial/sprite";
+
+@import "mixins/mixins";
+
+@import "partial/grid";
+
+@import "partial/typography";
+
+@import "partial/base";
+
+@import "partial/forms";
+
+@import "partial/lists";
+
+////////////////////////////////////Wordpress core elements
+
+@import "partial/wp-header";
+
+@import "partial/wp-primarynav";
+
+@import "partial/wp-footer";
+
+@import "partial/wp-content";
+
+@import "partial/wp-page";
+
+@import "partial/wp-post";
+
+@import "partial/wp-search";
+
+@import "partial/wp-archive";
+
+@import "partial/wp-sidebar";
+
+@import "partial/wp-single";
+
+@import "partial/wp-widget";
+
+@import "partial/wp-comments";
+
+@import "partial/wp-404";
+
+////////////////////////////////////Wordpress plugins
+
+
+
+
+
+
