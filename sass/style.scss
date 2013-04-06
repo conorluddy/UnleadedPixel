@@ -10,65 +10,74 @@ License URI: license.txt
 Tags:
 */
 ////////////////////////////////////Handy bits
-
 @import "bourbon/bourbon";
-
 @import "susy/susy";
-
 @import "compass/reset";
-
 ////////////////////////////////////General style stuff
-
 @import "partial/swatch";
-
 @import "partial/settings";
-
 @import "partial/sprite";
-
 @import "mixins/mixins";
-
 @import "partial/grid";
-
 @import "partial/typography";
-
 @import "partial/base";
-
 @import "partial/forms";
-
 @import "partial/lists";
-
 ////////////////////////////////////Wordpress core elements
-
-@import "partial/wp-header";
-
-@import "partial/wp-primarynav";
-
-@import "partial/wp-footer";
-
-@import "partial/wp-content";
-
-@import "partial/wp-page";
-
-@import "partial/wp-post";
-
-@import "partial/wp-search";
-
-@import "partial/wp-archive";
-
-@import "partial/wp-sidebar";
-
-@import "partial/wp-single";
-
-@import "partial/wp-widget";
-
-@import "partial/wp-comments";
-
-@import "partial/wp-404";
+@import "partial/wp/wp-header";
+@import "partial/wp/wp-primarynav";
+@import "partial/wp/wp-footer";
+@import "partial/wp/wp-content";
+@import "partial/wp/wp-page";
+@import "partial/wp/wp-post";
+@import "partial/wp/wp-search";
+@import "partial/wp/wp-archive";
+@import "partial/wp/wp-sidebar";
+@import "partial/wp/wp-single";
+@import "partial/wp/wp-widget";
+@import "partial/wp/wp-comments";
+@import "partial/wp/wp-404";
+////////////////////////////////////Wordpress alternative layouts
 
 ////////////////////////////////////Wordpress plugins
 
-
-
-
-
-
+////////////////////////////////////Breakpoints - mobile first - medium
+@import "partial/medium/sprite";
+@import "partial/medium/typography";
+@import "partial/medium/base";
+@import "partial/medium/forms";
+@import "partial/medium/lists";
+////////////////////////
+@import "partial/medium/wp/wp-header";
+@import "partial/medium/wp/wp-primarynav";
+@import "partial/medium/wp/wp-footer";
+@import "partial/medium/wp/wp-content";
+@import "partial/medium/wp/wp-page";
+@import "partial/medium/wp/wp-post";
+@import "partial/medium/wp/wp-search";
+@import "partial/medium/wp/wp-archive";
+@import "partial/medium/wp/wp-sidebar";
+@import "partial/medium/wp/wp-single";
+@import "partial/medium/wp/wp-widget";
+@import "partial/medium/wp/wp-comments";
+@import "partial/medium/wp/wp-404";
+////////////////////////////////////Breakpoints - mobile first - large
+@import "partial/large/sprite";
+@import "partial/large/typography";
+@import "partial/large/base";
+@import "partial/large/forms";
+@import "partial/large/lists";
+//////////////////////////////
+@import "partial/large/wp/wp-header";
+@import "partial/large/wp/wp-primarynav";
+@import "partial/large/wp/wp-footer";
+@import "partial/large/wp/wp-content";
+@import "partial/large/wp/wp-page";
+@import "partial/large/wp/wp-post";
+@import "partial/large/wp/wp-search";
+@import "partial/large/wp/wp-archive";
+@import "partial/large/wp/wp-sidebar";
+@import "partial/large/wp/wp-single";
+@import "partial/large/wp/wp-widget";
+@import "partial/large/wp/wp-comments";
+@import "partial/large/wp/wp-404";

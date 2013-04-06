@@ -4,11 +4,7 @@
 
 
 /* Usual Resets */
-
-
-
 @if $primaryNavDirection == 'horizontal' {
-
 
 	@include at-breakpoint($medium) {
 		.navigation-main{
